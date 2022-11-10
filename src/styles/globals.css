@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@200&family=Roboto&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e67408a53de7b6670_Fraunces72ptSuperSoft-Regular.otf");
+}
+
+@font-face {
+  font-family: "FrauncesItalic";
+  src: url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e240cf712017a74b1_Fraunces72ptSuperSoft-Italic.otf");
+}
+
+@font-face {
+  font-family: "FrauncesBold";
+  src: url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e1a73962ed32341b8_Fraunces72ptSuperSoft-Bold.otf");
+}
+
+@font-face {
+  font-family: "FrauncesBoldItalic";
+  src: url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e2ef6200b430e6c78_Fraunces72ptSuperSoft-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: "FrauncesBlack";
+  src: url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e3ab189606ea32f73_Fraunces72ptSuperSoft-Black.otf");
+}
+
+@font-face {
+  font-family: "FrauncesSemiBold";
+  src: url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3ee6bcfd51ec14bc52_Fraunces72ptSuperSoft-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "Fraunces144pt";
+  src: url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3fe92de96eebc79511_Fraunces144ptSuperSoft-Black.otf");
+}
+
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764ef5e2158274613afb4_Geomanist-Regular.otf");
+}
+
+@font-face {
+  font-family: "GeomanistBold";
+  src: url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efb1c5850618211b4d_Geomanist-Bold.otf");
+}
+
+.wave {
+  background-image: url('../../public/assets/images/noise.webp'),linear-gradient(180deg,rgba(213,173,143,.3),rgba(213,173,143,.3)),url("../../public/assets/images/stackedwave.svg");
+  background-position: 0 0,0 0,0 0;
+  background-size: 50px,auto,cover;
+}
+
+
+.navbar_link {
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:text-Stone duration-300
+}
+
+.footer_link {
+    @apply font-normal text-sm leading-5 flex gap-5 flex-col md:flex-row items-center 
+}
+
+.privacy {
+    @apply flex flex-row items-center
+}
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="10px" viewBox="0 0 11 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>heart-icon-color</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets-(Dark-BG)" transform="translate(-158.000000, -87.000000)" fill="#FF2F5B" fill-rule="nonzero">
+            <path d="M165.631146,87 C166.528699,87 167.388263,87.3629739 168.019953,88.0070486 C168.648003,88.6468108 169,89.5125726 169,90.4141633 C169,91.3157541 168.648003,92.1815159 168.019789,92.8214456 L164.213658,96.700377 C163.821658,97.0998743 163.178111,97.0998743 162.786112,96.700377 L158.979981,92.8214456 C157.67334,91.4898124 157.67334,89.3385142 158.979981,88.0068811 C160.214361,86.7488905 162.174591,86.6699686 163.500046,87.7701155 C164.098335,87.27467 164.850368,87 165.631146,87 Z" id="heart-icon-color"></path>
+        </g>
+    </g>
+</svg>
